@@ -20,15 +20,15 @@ La Librería en línea es un proyecto que busca proporcionar un espacio virtual 
 ## Instalación
 
 1.  Clona el repositorio en tu máquina local
-2.  Instala las dependencias necesarias (ver archivo `package.json`)
-3.  Inicia el servidor de desarrollo con el comando `npm start`
+2.  Ve a la carpeta del proyecto
+3.  Haz doble clic sobre el archivo index.html
 
 ## Uso
 
 1.  Accede a la página principal de la librería
 2.  Busca libros por título, autor o género
 3.  Selecciona un libro para ver su descripción y reseñas
-4.  Agrega libros a tu lista de favoritos o comparte en redes sociales
+4.  Agrega libros a tu carrito de compras
 
 ## Contribución
 
