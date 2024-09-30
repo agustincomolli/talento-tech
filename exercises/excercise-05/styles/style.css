@@ -1,0 +1,66 @@
+* {
+  @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+  font-family: 'Jost', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../assets/images/background.png);
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0E345A;
+  color: white;
+  margin: 0;
+  padding-bottom: 0.25rem;
+}
+
+main {
+  margin: 0 10%;
+  background-color: white;
+  padding: 2rem;
+}
+
+footer {
+  background-color: #0E345A;
+  color: white;
+  text-align: center;
+  padding: .5rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50%;
+  margin: .25rem;
+}
+
+.nav-menu {
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.inside-library {
+  max-width: 100%;
+  height: auto;
+}
+
+.video {
+  max-width: 100%;
+}
+
+.heading-2 {
+  color: #0F2840;
+}
