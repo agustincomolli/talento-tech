@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conacto</title>
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h2>📖 El Rincón de los Libros 🤓</h2>
+      <ul>
+        <li><a class="nav-link" href="../index.html">Inicio</a></li>
+        <li><a class="nav-link" href="./books.html">Libros</a></li>
+        <li><a class="nav-link" href="./questions.html">Preguntas frecuentes</a></li>
+        <li><a class="nav-link" href="./about.html">Sobre Nosotros</a></li>
+        <li><a class="nav-link" href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <h2>Contacto ✍️</h2>
+    <form action="" method="post">
+      <fieldset>
+        <legend><b>Datos básicos</b></legend>
+        <label for="first-name">Nombre:</label>
+        <input type="text" name="first-name" id="first-name" placeholder="Tu nombre" required size="10" maxlength="15">
+
+        <label for="last-name">Apellido:</label>
+        <input type="text" name="last-name" id="last-name" placeholder="Tu apellido" required size="10" maxlength="15">
+
+        <br><br>
+
+        <label for="dni">DNI:</label>
+        <input type="number" name="dni" id="dni" placeholder="Tu DNI" required>
+
+        <label for="procedure-number">Nº de trámite:</label>
+        <input type="password" name="procedure-number" id="procedure-number" required>
+
+        <label for="birthdate">Fecha de nacimiento:</label>
+        <input type="date" name="birthdate" id="birthdate">
+
+        <br><br>
+
+        <label for="stature">Estatura:</label>
+        <select name="stature" id="stature">
+          <option value="short">Baja</option>
+          <option value="medium">Media</option>
+          <option value="tall">Alta</option>
+          <option value="very-tall" disabled>Muy alta</option>
+        </select>
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="alguien@tu.com">
+
+        <label for="photo">Foto:</label>
+        <input type="file" name="photo" id="photo">
+      </fieldset>
+
+      <br><br>
+
+      <label for="comments">Comentarios:</label><br>
+      <textarea name="comments" id="comments" cols="50" rows="10" placeholder="Escribe tus comentarios"></textarea>
+
+      <br><br>
+
+      <label for="previous-knowledge">Conocimientos previos:</label>
+      <input type="checkbox" name="previous-knowledge" id="previous-knowledge">HTML
+      <input type="checkbox" name="previous-knowledge" id="previous-knowledge">CSS
+      <input type="checkbox" name="previous-knowledge" id="previous-knowledge">JS
+      <input type="checkbox" name="previous-knowledge" id="previous-knowledge">Ninguno
+
+      <br><br>
+
+      <label for="residency">Zona de residencia:</label>
+      <input type="radio" name="residency" id="residency">CABA
+      <input type="radio" name="residency" id="residency">AMBA
+      <input type="radio" name="residency" id="residency">Provincia de Bs As
+      <input type="radio" name="residency" id="residency">Interior del país
+
+      <br><br>
+
+      <input type="checkbox" name="accept-terms" id="accept-terms">
+      <label for="accept-terms">Acepto los términos y condiciones</label>
+
+      <br><br>
+
+      <button type="submit">Enviar</button>
+      <button type="reset">Borrar</button>
+    </form>
+
+
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Agustín Comolli. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

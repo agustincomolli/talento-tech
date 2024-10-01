@@ -1,0 +1,42 @@
+/* Selector universal, el cual aplica a todos los elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #faebd7;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+  background-color: #00008b4f;
+}
+
+main {
+  margin: 0 10%;
+  padding: 2rem;
+  background-color: white;
+}
+
+footer {
+  background-color: #00008bab;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Selector de id */
+#title {
+  color: #00008b;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* Selector de clase */
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
