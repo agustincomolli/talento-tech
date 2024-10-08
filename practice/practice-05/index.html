@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <!-- Estilos -->
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <button id="theme-toggle">Cambiar tema</button>
+  <h1>Especificidad CSS</h1>
+  <p>
+    Primero viene el !important en grado de especificidad, luego siguen los estilos inline; después siguen los estilos
+    de los ids, después los de las clases y por último los estilos de los elementos.
+  </p>
+  <p id="first-paragraph" class="paragraph" style="color: lightblue;">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit autem ea voluptas alias natus atque, doloribus nemo
+    ratione vero eaque obcaecati, neque tempore porro ex perferendis, fugiat voluptate dolorem consectetur.
+  </p>
+</body>
+<script>
+  const themeToggle = document.getElementById('theme-toggle');
+  const body = document.body;
+
+  themeToggle.addEventListener('click', () => {
+    if (body.getAttribute('data-theme') === 'dark') {
+      body.removeAttribute('data-theme');
+    } else {
+      body.setAttribute('data-theme', 'dark');
+    }
+  });
+</script>
+</html>
