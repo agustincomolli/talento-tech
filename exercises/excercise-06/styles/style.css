@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(./index.css);
+@import url(./contact.css);
+
 * {
-  @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
   font-family: 'Jost', sans-serif;
   box-sizing: border-box;
 }
@@ -28,7 +31,7 @@ main {
 }
 
 footer {
-  background-color: #0E345A;
+  background-color: #0F2840;
   color: white;
   text-align: center;
   padding: .5rem;
@@ -72,15 +75,7 @@ h3 {
   color: white;
 }
 
-.inside-library {
-  max-width: 100%;
-  height: auto;
-}
-
-.video {
-  max-width: 100%;
-}
-
 .heading-2 {
   color: #0F2840;
+  margin-block-end: 0;
 }

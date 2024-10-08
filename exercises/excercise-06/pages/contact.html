@@ -8,8 +8,10 @@
 </head>
 <body class="layout">
   <header>
-    <img class="logo" src="../assets/images/logo.png" alt="Logo" width="100px">
-    <h2>El Rincón de los Libros</h2>
+    <div class="brand">
+      <img class="logo" src="../assets/images/logo.png" alt="Logo" width="100px">
+      <h2>El Rincón de los Libros</h2>
+    </div>
     <nav>
       <ul class="nav-menu">
         <li><a class="nav-link" href="../index.html">Inicio</a></li>
@@ -19,21 +21,23 @@
       </ul>
     </nav>
   </header>
-  
+
   <main>
-    <h2>El Rincón de los Libros</h2>
-    <form action="https://formspree.io/f/myyqoqvl" method="post">
-      <label for="name">Nombre:</label>
-      <input type="text" name="name" id="name" placeholder="Tu nombre" required>
+    <h2>Contacto</h2>
+    <form class="form-contact" action="https://formspree.io/f/myyqoqvl" method="post">
+      <div class="form-container">
+        <label class="margin-top-controls" for="name">Nombre:</label>
+        <input type="text" name="name" id="name" placeholder="Juan Perez" required>
 
-      <label for="email">Email:</label>
-      <input type="email" name="email" id="email" placeholder="Tu email" required>
+        <label class="margin-top-controls" for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="alguien@example.com.ar" required>
 
-      <label for="comments">Comentarios:</label>
-      <textarea name="comments" id="comments" cols="50" rows="10" placeholder="Escribe tu comentario"
-        required></textarea>
+        <label class="margin-top-controls" for="comments">Comentarios:</label>
+        <textarea name="comments" id="comments" cols="50" rows="10" placeholder="Escribe tu comentario aquí"
+          required></textarea>
 
-      <button type="submit">Enviar</button>
+        <button class="margin-top-controls" type="submit">Enviar</button>
+      </div>
     </form>
   </main>
 
