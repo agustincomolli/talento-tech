@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#box-1,
+#box-2 {
+  background-color: seagreen;
+  width: 250px;
+  height: 250px;
+  border: 10px solid red;
+  margin: 15px;
+}
