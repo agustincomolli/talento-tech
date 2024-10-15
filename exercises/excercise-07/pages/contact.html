@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body class="layout">
+  <header>
+    <div class="brand">
+      <img class="logo" src="../assets/images/logo.png" alt="Logo" width="100px">
+      <h2>El Rincón de los Libros</h2>
+    </div>
+    <nav>
+      <ul class="nav-menu">
+        <li><a class="nav-link" href="../index.html">Inicio</a></li>
+        <li><a class="nav-link" href="#">Productos</a></li>
+        <li><a class="nav-link" href="#">Reseñas</a></li>
+        <li><a class="nav-link" href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contacto</h2>
+    <form class="form-contact" action="https://formspree.io/f/myyqoqvl" method="post">
+      <div class="form-container">
+        <label class="margin-top-controls" for="name">Nombre:</label>
+        <input type="text" name="name" id="name" placeholder="Juan Perez" required>
+
+        <label class="margin-top-controls" for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="alguien@example.com.ar" required>
+
+        <label class="margin-top-controls" for="comments">Comentarios:</label>
+        <textarea name="comments" id="comments" cols="50" rows="10" placeholder="Escribe tu comentario aquí"
+          required></textarea>
+
+        <button class="margin-top-controls" type="submit">Enviar</button>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <div class="author">
+      &copy; 2024 Agustín Comolli. Todos los derechos reservados.
+    </div>
+    <div class="social-networks">
+      <a href="https://www.facebook.com"><i class='bx bxl-facebook-circle'></i></a>
+      <a href="https://www.linkedin.com"><i class='bx bxl-linkedin-square'></i></a>
+      <a href="https://www.instagram.com"><i class='bx bxl-instagram-alt'></i></a>
+      <a href="https://www.twitter.com"><i class='bx bxl-twitter'></i></a>
+      <a href="https://www.youtube.com"><i class='bx bxl-youtube'></i></a>
+    </div>
+  </footer>
+</body>
+</html>
