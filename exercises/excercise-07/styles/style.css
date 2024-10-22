@@ -23,6 +23,7 @@ header {
   margin: 0;
   padding: 0.25rem 2rem .25rem .5rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -72,10 +73,15 @@ h1 {
   display: flex;
   align-items: center;
   gap: .5rem;
+  flex-shrink: 0;  /* Evita que el brand se encoja */
 }
 
 .brand-heading {
   font-size: 1.3rem;
+}
+
+.nav-bar {
+  margin-left: auto;  /* Empuja el nav hacia la derecha */
 }
 
 .nav-menu {
