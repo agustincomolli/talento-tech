@@ -77,7 +77,7 @@ h1 {
   width: 0;
   height: 3px;
   background: #0F2840;
-  transition: width 0.3s;
+  transition: width 0.5s;
 }
 
 .title:hover::after {

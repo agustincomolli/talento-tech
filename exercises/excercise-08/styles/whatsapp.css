@@ -1,9 +1,10 @@
-.whatsapp-float {
+.whatsapp {
   display: none;
 }
 
 @media screen and (min-width: 768px) {
   .whatsapp {
+    display: block;
     position: fixed;
     bottom: 60px;
     right: 40px;
