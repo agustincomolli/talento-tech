@@ -1,0 +1,35 @@
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.book {
+  max-width: 200px;
+}
+
+.book-title {
+  font-family: 'Jost', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin-block: 0.5rem;
+  word-wrap: break-word;
+}
+
+.book-author {
+  margin-block: 0.5rem;
+}
+
+.book-cover {
+  height: 300px;
+  /* alto fijo */
+  width: 200px;
+  /* ancho fijo */
+  object-fit: cover;
+  /* ajusta la imagen para que no se desforme */
+}
+
+.book-price {
+  margin-block: 0.5rem;
+}
