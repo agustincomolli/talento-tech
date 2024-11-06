@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introducción a JavaScript</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <h1>Introducción a JavaScript</h1>
+  </header>
+  <main>
+    <form action="" id="form" method="get">
+      <div class="field-container">
+        <label for="age">Edad:</label>
+        <input type="number" class="input-box" id="age" name="age" required min="1" max="99">
+      </div>
+
+      <div class="field-container">
+        <label for="vip">¿Es VIP?:</label>
+        <input type="checkbox" class="input-box" id="vip" name="vip">
+      </div>
+
+      <div class="field-container">
+        <button class="button">Enviar</button>
+      </div>
+    </form>
+
+    <div class="message-container">
+      <span class="message">Mensaje</span>
+      <a href="#" class="message-close" title="Cerrar">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" ><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+      </a>
+    </div>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
