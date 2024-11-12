@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introducción a JavaScript</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <h1>Introducción a JavaScript</h1>
+  </header>
+  <main>
+    <form action="" id="form" method="get">
+      <div class="field-titles">
+        <label class="product" for="product">Producto:</label>
+        <label class="price" for="price">Precio:</label>
+        <label for="vip">¿Descuento?:</label>
+      </div>
+      
+      <div class="field-container">
+        <input type="text" class="input-box product" id="product" name="product" required>
+        <input type="number" class="input-box price" id="price" name="price" required min="1" max="9999">
+        <input type="checkbox" class="input-box discount" id="has-discount" name="has-discount">
+      </div>
+      
+      <button class="button">Enviar</button>
+    </form>
+
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
