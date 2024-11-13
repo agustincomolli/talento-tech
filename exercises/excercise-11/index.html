@@ -15,7 +15,7 @@
       <div class="field-titles">
         <label class="product" for="product">Producto:</label>
         <label class="price" for="price">Precio:</label>
-        <label for="vip">¿Descuento?:</label>
+        <label for="has-discount">¿Descuento?:</label>
       </div>
       
       <div class="field-container">
@@ -24,8 +24,28 @@
         <input type="checkbox" class="input-box discount" id="has-discount" name="has-discount">
       </div>
       
-      <button class="button">Enviar</button>
+      <div class="button-container">
+        <button class="button" id="add">Agregar</button>
+        <button class="button" id="calc">Calcular</button>
+      </div>
     </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th class="th-product">Producto</th>
+          <th class="th-price">Precio</th>
+          <th class="th-discount">Descuento</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- <tr>
+          <td>Yerba mate Cruz de Malta</td>
+          <td>$ 3.000</td>
+          <td>Sí</td>
+        </tr> -->
+      </tbody>
+    </table>
 
   </main>
 

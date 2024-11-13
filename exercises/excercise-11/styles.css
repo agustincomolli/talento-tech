@@ -115,8 +115,7 @@ svg {
 
 .button {
   margin-top: 1rem;
-  padding: 4px 4px;
-  width: 150px;
+  padding: 4px 24px;
   border-radius: 4px;
   border: 1px solid #ccc;
   font-size: 1.2rem;
@@ -128,4 +127,36 @@ svg {
 input[type="checkbox"] {
   /* Haz el checkbox 2 veces más grande */
   transform: scale(2);
+}
+
+.button-container {
+  align-self: center;
+  display: flex;
+  gap: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  margin-top: 1rem;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: .5rem;
+  text-align: left;
+}
+
+.th-product {
+  width: 50%;
+}
+
+.th-price {
+  width: 20%;
+}
+
+.th-discount {
+  width: 10%;
 }
